@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #000000;
+  color: #fff !important;
+  margin-top: 20px !important;
+  text-align: center !important;
+  min-height: 100vh !important;
+}
+
+img {
+  max-width: 130px;
+  border-style: solid;
+  border-radius: 100%;
+}
+
+main .title {
+  font-size: 20px;
+}
+
+main .subtitle {
+  font-size: 15px;
+  color: #949294;
+}
+
+/* Icons */
+main .icons {
+  font-size: 25px;
+  margin-right: 0%;
+  cursor: pointer;
+}
+
+main .icon {
+  color: #fff;
+}
+main #linkd:hover {
+  color: #0a66c2;
+}
+main #insta:hover {
+  color: #c90061;
+}
+main #tele:hover {
+  color: #36aee2;
+}
+main #whats:hover {
+  color: #33d150;
+}
+main #codepen:hover {
+  color: #ffffff;
+}
+main #replit:hover {
+  color: #2b3245;
+}
+main #stack:hover {
+  color: #f48224;
+}
+
+footer {
+  bottom: 0;
+  left: 0;
+  height: 40px;
+  position: fixed;
+  width: 100%;
+  font-size: 12px;
+}
+
+/* Buttons */
+main button {
+  background-color: #222222;
+  position: relative;
+  color: #fff;
+  height: 60px;
+  width: 100%;
+  min-width: 50px;
+  max-width: 500px;
+  font-size: 16px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+main button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+main .box {
+  box-sizing: border-box;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
